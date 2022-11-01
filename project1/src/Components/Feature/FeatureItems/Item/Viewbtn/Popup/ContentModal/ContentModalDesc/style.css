@@ -1,0 +1,89 @@
+.ContentModalDesc{
+    width: 75%;
+}
+.ContentModalDesc h3{
+  margin-top: 1.2rem;
+  font-weight: 500;
+}
+.price-star{
+    display: flex;
+    color: #FF6008;
+    margin-top: .3rem;
+}
+.price-star p{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.price-star div{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.star5{
+   font-size: 14px;
+   
+}
+.star5 i{
+    margin-right: .1rem;
+}
+
+
+.star5 span{
+    opacity: 1;
+color: rgba(102,102,102,1);
+font-size: 16px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0px;
+text-align: justified;
+line-height: 20px;
+display: inline-block;
+margin-left: .5rem;
+font-size: 15px;
+}
+.pro-desc{
+    margin-top: 1rem;
+}
+.pro-desc p{
+    opacity: 1;
+color: rgba(102,102,102,1);
+margin-top: .3rem;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: justified;
+line-height: 20px;
+}
+
+.pro-info{
+margin-top: 0.2rem;
+}
+.pro-info div{
+    display: flex;
+    padding: 10px 0px;
+    border-top: 1px solid gainsboro;
+}
+.pro-info div:nth-child(3){
+    border-bottom: 1px solid gainsboro;
+}
+.pro-info div h5{
+    width: 50%;
+    opacity: 1;
+   color: rgba(0,0,0,1);
+   font-weight: 500;
+   font-size: 14px;
+}
+.pro-info div p{
+width: 50%;
+opacity: 1;
+color: rgba(102,102,102,1);
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: justified;
+line-height: 20px;
+}

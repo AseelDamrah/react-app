@@ -1,0 +1,15 @@
+.ExploreBtn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+.ExploreBtn button{
+    padding: 8px 17px;
+    background-color: #33333A;
+    border: none;
+}
+.ExploreBtn button a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+}

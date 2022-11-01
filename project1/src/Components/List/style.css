@@ -1,0 +1,51 @@
+.listItem{
+    display: flex;
+    height: fit-content;
+    padding: 15px 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0, 0.1);
+    opacity: 1;
+    background-color: rgba(255,255,255, 1);
+}
+.listItem-left{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.listItem-right{
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.listItem-right div{
+    width: 10%;
+margin-right: 2.5rem;
+   
+}
+.listItem-right div:nth-child(1){
+    color: #33333A;
+    font-size: 14px;
+    width: 6%;
+    margin-left: 2rem;
+}
+.listItem-right div i{
+    font-size: 18px;
+}
+.logo{
+    width: 17%;
+}
+
+.Items select{
+   border: none;
+   color: #33333A;
+   text-transform: uppercase;
+   font-weight: 500;
+   opacity: 1;
+   font-size: 12px;
+   letter-spacing: 1px;
+   margin-left: 1.5rem;
+
+}

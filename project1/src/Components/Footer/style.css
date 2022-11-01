@@ -1,0 +1,73 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+  
+    padding-top: 2rem;
+}
+.Footer-copy{
+    background-color: #33333A;
+}
+.Footer div{
+    width: 14%;
+}
+.Footer div:nth-child(4){
+    width:33%;
+}
+.Footer div ul li{
+    list-style-type: none;
+    margin-bottom: 0.3rem;
+}
+.Footer div ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.Footer h4{
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email{
+  padding: .5rem;
+  width: 60%;
+  border: 1px solid #666666;
+  background-color: transparent;
+}
+::placeholder{
+    color: #666666;
+}
+.submit2{
+    padding: 0.5rem;
+    width: 30%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33333A;
+    background-color: white;
+    border: none;
+}
+.face-twi{
+    padding-top: 1rem;
+}
+.face-twi i{
+    font-size: 0.8rem;
+    color: #33333A;
+    background-color: #B2B2B2;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.contact-list li:nth-child(2){
+    margin-top: 2rem;
+}
+.copy-right p{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.copy-right{
+    margin-top: 1rem;
+}

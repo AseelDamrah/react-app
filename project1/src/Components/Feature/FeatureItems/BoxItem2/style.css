@@ -1,0 +1,8 @@
+
+.container-Box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}

@@ -1,0 +1,16 @@
+
+.HeaderModal{
+    display: flex;
+
+}
+.HeaderModal h4{
+    width: 95%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.HeaderModal button{
+    width: 5%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+}

@@ -1,0 +1,21 @@
+.RecommendedBTN-btn{
+    opacity: 1;
+color: rgba(255,255,255,1);
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 1px;
+text-align: center;
+line-height: 20px;
+text-transform: uppercase;
+opacity: 1;
+background-color: rgba(51,51,58, 1);
+border: none;
+padding: .7rem 1rem;
+
+}
+.RecommendedBTN{
+    display: flex;
+    justify-content: center;
+}
