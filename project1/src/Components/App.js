@@ -1,13 +1,8 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar.js';
 import List from './List/List.js';
-import Header from './Header/Header.js';
-import Feature from './Feature/Feature.js';
-import About from './About/About.js';
-import Explore from './Explore/Explore.js';
-import Shop from './Shop/Shop.js';
-import Recommended from './Recommended/Recommended.js'
-import Seen from './Seen/Seen'
+import HomePage from '../Components/HomePage/HomePage'
+import ProductListing from '../Components/ProductListing/ProductListing'
 import Footer from './Footer/Footer'
 
 export default class App extends Component {
@@ -16,13 +11,7 @@ export default class App extends Component {
       <>
       <Navbar/>
       <List/>
-      <Header/>
-      <Feature/>
-      <About/>
-      <Explore/>
-      <Shop/>
-      <Recommended/>
-      <Seen/>
+      <ProductListing/>
       <Footer/>
       </>
     )

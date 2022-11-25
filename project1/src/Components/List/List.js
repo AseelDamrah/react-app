@@ -11,9 +11,9 @@ export default class List extends Component {
                <div className='logo'><img src='images/logo.png' /></div>
                 <div className='Items'>
                 {arr.map((item)=>
-                <select>
-                    <option>{item}</option>
-                </select>
+                <>
+                <a href="#">{item}</a><i class="fa fa-light fa-angle-down"></i>
+                </>
                    )}
                 </div>
             </diV>

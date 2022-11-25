@@ -1,0 +1,48 @@
+.ProductListingHeader{
+    display: flex;
+ justify-content: end;
+   height: 80vh;
+   padding-right: 6rem;
+   background-color: rgba(211, 206, 206, 0.247);
+}
+
+.ProductListingHeader-img{
+    width: 25%;
+    background-color: aqua;
+}
+.ProductListingHeader-img img{
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+
+}
+.ProductListingHeader-content{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    padding-top: 6rem;
+   
+}
+.ProductListingHeader-content h1{
+    opacity: 1;
+color: rgba(51,51,58,1);
+font-size: 40px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: center;
+line-height: 90px;
+}
+.ProductListingHeader-content p{
+    opacity: 1;
+color: rgba(3,3,3,1);
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: center;
+line-height: 30px;
+width: 80%;
+margin: auto;
+
+}

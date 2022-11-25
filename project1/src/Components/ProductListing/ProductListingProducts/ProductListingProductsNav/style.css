@@ -1,0 +1,55 @@
+.ProductListingProductsNav{
+    display: flex;
+}
+
+.ProductListingProductsNav-left{
+    width: 30%;
+}
+.ProductListingProductsNav-left h2{
+    opacity: 1;
+color: rgba(3,3,3,1);
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+line-height: 40px;
+text-align: center;
+}
+.ProductListingProductsNav-right{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+}
+.ProductListingProductsNav-right h3{
+    opacity: 1;
+color: rgba(51,51,51,1);
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 40px;
+margin-right: 1.3rem;
+}
+.ProductListingProductsNav-right select{
+    border: 1px solid rgba(222,222,222, 1);
+opacity: 1;
+background-color: rgba(255,255,255, 1);
+opacity: 1;
+color: rgba(81,83,86,1);
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 20px;
+text-transform: uppercase;
+height: 80%;
+width: 100%;
+}
+.ProductListingProductsNav-select{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}

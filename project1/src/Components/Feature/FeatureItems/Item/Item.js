@@ -4,16 +4,16 @@ import Viewbtn from './Viewbtn/Viewbtn'
 
 export default class Item extends Component {
   render() {
-    let {img,desc,price}=this.props.FeatureData;
+    let {image,title,price}=this.props.FeatureData;
     return (
       <>
       <div className='item'>
        <a href='#'>
         <div className='img-item'>
-          <img src={img}/>
+          <img src={image}/>
           <Viewbtn/>
           </div>
-        <p>{desc}</p>
+        <p>{title}</p>
         <span>{price}</span>
         </a> 
         <div className='new'>NEW</div>
